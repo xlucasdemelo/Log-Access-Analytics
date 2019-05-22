@@ -9,13 +9,13 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.lucas.LAA.domain.entity.Log;
-import com.lucas.LAA.domain.repository.LogRepository;
+import com.lucas.LAA.domain.service.LogService;
 
 @RestController
 public class LogController {
 	
 	@Autowired
-	private LogRepository logRepository;
+	private LogService logService;
 	
 	@GetMapping(value = "/laaa/health", produces = "application/json")
 	public ResponseEntity<String> ApplicationHealthCheck() {
@@ -28,7 +28,7 @@ public class LogController {
 	
 	@PostMapping(value = "/laar/ingest", consumes="application/json")
 	public Log ingestLog(@RequestBody Log log) {
-		return this.logRepository.save(log);
+		return this.logService.insertLog(log);
 	}
 	
 }

@@ -11,7 +11,7 @@ import org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "com.lucas")
+@ComponentScan(basePackages = "com.lucas.LAA*")
 public class ApplicationConfiguration implements WebMvcConfigurer {
 	
 	@Override

@@ -4,7 +4,6 @@ import java.io.Serializable;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.validation.constraints.NotNull;
 
 import org.springframework.data.redis.core.RedisHash;
 
@@ -29,13 +28,11 @@ public class Log implements Serializable{
 	@Id
 	protected Long id;
 	
-	@NotNull
 	private String url;
 	
-	@NotNull
 	private String timestamp;
 	
-	@NotNull
 	private String uuid;
 	
+	private RegionCode regionCode;
 }
