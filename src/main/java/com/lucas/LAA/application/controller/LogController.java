@@ -31,4 +31,8 @@ public class LogController {
 		return this.logService.insertLog(log);
 	}
 	
+	@GetMapping(value = "/laa/metrics", produces="application/json")
+	public Log getMetrics(Log log) {
+		return this.logService.insertLog(log);
+	}
 }
