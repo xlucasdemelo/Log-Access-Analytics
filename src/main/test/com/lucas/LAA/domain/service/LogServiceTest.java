@@ -23,14 +23,14 @@ public class LogServiceTest {
 	private LogService logServices;
 	
 	private void generateData() {
-		Log log = new Log(null, "tiggers/bid/nowwow", "1037825323957", "5b019db5-b3d0-46d2-9963-437860af707e", RegionCode.US_EAST_1 );
-		Log log1 = new Log(null, "tiggers/bid/nowwow", "1037825323957", "5b019db5-b3d0-46d2-9963-437860af707e", RegionCode.AP_SOUTH_1 );
-		Log log2 = new Log(null, "tiggers/bid/other", "1037825323957", "5b019db5-b3d0-46d2-9963-437860af707e", RegionCode.AP_SOUTH_1 );
-		Log log3 = new Log(null, "tiggers/bid/other", "1037825323957", "5b019db5-b3d0-46d2-9963-437860af707e", RegionCode.AP_SOUTH_1 );
-		Log log4 = new Log(null, "tiggers/bid/nowwow", "1037825323957", "5b019db5-b3d0-46d2-9963-437860af707e", RegionCode.AP_SOUTH_1 );
-		Log log5 = new Log(null, "tiggers/bid/another", "1037825323957", "5b019db5-b3d0-46d2-9963-437860af707e", RegionCode.US_EAST_1 );
-		Log log6 = new Log(null, "tiggers/bid/another", "1037825323957", "5b019db5-b3d0-46d2-9963-437860af707e", RegionCode.AP_SOUTH_1 );
-		Log log7 = new Log(null, "tiggers/bid/last", "1037825323957", "5b019db5-b3d0-46d2-9963-437860af707e", RegionCode.US_WEST_2 );
+		Log log = new Log(null, "tiggers/bid/nowwow", "1037825323957", "5b019db5-b3d0-46d2-9963-437860af707e", RegionCode.US_EAST_1.getvalue() );
+		Log log1 = new Log(null, "tiggers/bid/nowwow", "1037825323957", "5b019db5-b3d0-46d2-9963-437860af707e", RegionCode.AP_SOUTH_1.getvalue() );
+		Log log2 = new Log(null, "tiggers/bid/other", "1037825323957", "5b019db5-b3d0-46d2-9963-437860af707e", RegionCode.AP_SOUTH_1.getvalue() );
+		Log log3 = new Log(null, "tiggers/bid/other", "1037825323957", "5b019db5-b3d0-46d2-9963-437860af707e", RegionCode.AP_SOUTH_1.getvalue() );
+		Log log4 = new Log(null, "tiggers/bid/nowwow", "1037825323957", "5b019db5-b3d0-46d2-9963-437860af707e", RegionCode.AP_SOUTH_1.getvalue() );
+		Log log5 = new Log(null, "tiggers/bid/another", "1037825323957", "5b019db5-b3d0-46d2-9963-437860af707e", RegionCode.US_EAST_1.getvalue() );
+		Log log6 = new Log(null, "tiggers/bid/another", "1037825323957", "5b019db5-b3d0-46d2-9963-437860af707e", RegionCode.AP_SOUTH_1.getvalue() );
+		Log log7 = new Log(null, "tiggers/bid/last", "1037825323957", "5b019db5-b3d0-46d2-9963-437860af707e", RegionCode.US_WEST_2.getvalue() );
 		
 		this.logServices.insertLog(log);
 		this.logServices.insertLog(log1);
@@ -45,7 +45,7 @@ public class LogServiceTest {
 	@Test
 	public void insertLogSuccess(){
 		/// tiggers/bid/now 1037825323957 5b019db5-b3d0-46d2-9963-437860af707e 3
-		Log log = new Log(null, "tiggers/bid/nowwow", "1037825323957", "5b019db5-b3d0-46d2-9963-437860af707e", RegionCode.AP_SOUTH_1 );
+		Log log = new Log(null, "tiggers/bid/nowwow", "1037825323957", "5b019db5-b3d0-46d2-9963-437860af707e", RegionCode.AP_SOUTH_1.getvalue() );
 		this.logServices.insertLog(log);
 		
 		Assert.notNull(log, "Should not be null");

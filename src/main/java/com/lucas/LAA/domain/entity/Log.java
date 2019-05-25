@@ -9,6 +9,8 @@ import javax.persistence.Id;
 
 import org.springframework.data.redis.core.RedisHash;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -37,5 +39,8 @@ public class Log  implements Serializable{
 	
 	private String uuid;
 	
-	private RegionCode regionCode;
+	@JsonProperty("region_code")
+	private Integer regionCode;
+	
 }
+

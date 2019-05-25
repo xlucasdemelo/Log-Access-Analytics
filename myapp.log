@@ -1,0 +1,127 @@
+2019-05-25 17:17:35 INFO  LogController:41 - Getting metrics
+2019-05-25 17:28:08 INFO  LogController:41 - Getting metrics
+2019-05-25 17:28:08 INFO  LogService:50 - Metrics returned successfully
+2019-05-25 17:28:14 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:28:14 INFO  LogService:30 - Ingest successfully done
+2019-05-25 17:28:15 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:28:15 INFO  LogService:30 - Ingest successfully done
+2019-05-25 17:28:16 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:28:16 INFO  LogService:30 - Ingest successfully done
+2019-05-25 17:28:21 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:28:21 INFO  LogService:30 - Ingest successfully done
+2019-05-25 17:28:22 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:28:22 INFO  LogService:30 - Ingest successfully done
+2019-05-25 17:28:23 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:28:23 INFO  LogService:30 - Ingest successfully done
+2019-05-25 17:28:24 INFO  LogController:41 - Getting metrics
+2019-05-25 17:28:24 INFO  LogService:50 - Metrics returned successfully
+2019-05-25 17:28:32 INFO  LogController:41 - Getting metrics
+2019-05-25 17:28:32 INFO  LogService:50 - Metrics returned successfully
+2019-05-25 17:29:13 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:29:13 INFO  LogService:30 - Ingest successfully done
+2019-05-25 17:29:14 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:29:14 INFO  LogService:30 - Ingest successfully done
+2019-05-25 17:29:15 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:29:15 INFO  LogService:30 - Ingest successfully done
+2019-05-25 17:29:16 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:29:16 INFO  LogService:30 - Ingest successfully done
+2019-05-25 17:29:16 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:29:16 INFO  LogService:30 - Ingest successfully done
+2019-05-25 17:29:18 INFO  LogController:41 - Getting metrics
+2019-05-25 17:29:18 INFO  LogService:50 - Metrics returned successfully
+2019-05-25 17:29:44 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:29:44 INFO  LogService:30 - Ingest successfully done
+2019-05-25 17:29:44 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:29:44 INFO  LogService:30 - Ingest successfully done
+2019-05-25 17:29:45 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:29:45 INFO  LogService:30 - Ingest successfully done
+2019-05-25 17:29:45 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:29:45 INFO  LogService:30 - Ingest successfully done
+2019-05-25 17:29:46 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:29:46 INFO  LogService:30 - Ingest successfully done
+2019-05-25 17:29:47 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:29:47 INFO  LogService:30 - Ingest successfully done
+2019-05-25 17:29:48 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:29:48 INFO  LogService:30 - Ingest successfully done
+2019-05-25 17:29:49 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:29:49 INFO  LogService:30 - Ingest successfully done
+2019-05-25 17:29:50 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:29:50 INFO  LogService:30 - Ingest successfully done
+2019-05-25 17:29:50 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:29:50 INFO  LogService:30 - Ingest successfully done
+2019-05-25 17:29:51 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:29:51 INFO  LogService:30 - Ingest successfully done
+2019-05-25 17:29:52 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:29:52 INFO  LogService:30 - Ingest successfully done
+2019-05-25 17:29:52 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:29:52 INFO  LogService:30 - Ingest successfully done
+2019-05-25 17:29:53 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:29:53 INFO  LogService:30 - Ingest successfully done
+2019-05-25 17:29:54 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:29:54 INFO  LogService:30 - Ingest successfully done
+2019-05-25 17:29:56 INFO  LogController:41 - Getting metrics
+2019-05-25 17:29:56 INFO  LogService:50 - Metrics returned successfully
+2019-05-25 17:32:47 INFO  LogController:41 - Getting metrics
+2019-05-25 17:32:47 INFO  LogService:49 - Metrics returned successfully
+2019-05-25 17:32:58 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:37:36 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:37:45 INFO  LogService:29 - Ingest successfully done
+2019-05-25 17:39:45 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:39:45 INFO  LogService:29 - Ingest successfully done
+2019-05-25 17:39:47 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:39:47 INFO  LogService:29 - Ingest successfully done
+2019-05-25 17:40:09 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:40:09 INFO  LogService:29 - Ingest successfully done
+2019-05-25 17:40:14 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:40:14 INFO  LogService:29 - Ingest successfully done
+2019-05-25 17:40:15 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:40:15 INFO  LogService:29 - Ingest successfully done
+2019-05-25 17:40:15 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:40:15 INFO  LogService:29 - Ingest successfully done
+2019-05-25 17:40:16 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:40:16 INFO  LogService:29 - Ingest successfully done
+2019-05-25 17:40:17 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:40:17 INFO  LogService:29 - Ingest successfully done
+2019-05-25 17:40:17 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:40:17 INFO  LogService:29 - Ingest successfully done
+2019-05-25 17:40:18 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:40:18 INFO  LogService:29 - Ingest successfully done
+2019-05-25 17:40:18 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:40:18 INFO  LogService:29 - Ingest successfully done
+2019-05-25 17:40:19 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:40:19 INFO  LogService:29 - Ingest successfully done
+2019-05-25 17:40:21 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:40:21 INFO  LogService:29 - Ingest successfully done
+2019-05-25 17:40:22 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:40:22 INFO  LogService:29 - Ingest successfully done
+2019-05-25 17:40:24 INFO  LogController:41 - Getting metrics
+2019-05-25 17:40:24 INFO  LogService:49 - Metrics returned successfully
+2019-05-25 17:40:28 INFO  LogController:41 - Getting metrics
+2019-05-25 17:40:28 INFO  LogService:49 - Metrics returned successfully
+2019-05-25 17:40:40 INFO  LogController:41 - Getting metrics
+2019-05-25 17:40:40 INFO  LogService:49 - Metrics returned successfully
+2019-05-25 17:40:43 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:40:43 INFO  LogService:29 - Ingest successfully done
+2019-05-25 17:41:07 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:57:47 INFO  LogController:35 - Ingesting Log
+2019-05-25 17:57:54 INFO  LogService:29 - Ingest successfully done
+2019-05-25 18:11:35 INFO  LogController:35 - Ingesting Log
+2019-05-25 18:13:51 INFO  LogController:35 - Ingesting Log
+2019-05-25 18:17:53 INFO  LogController:35 - Ingesting Log
+2019-05-25 18:18:01 INFO  LogService:29 - Ingest successfully done
+2019-05-25 18:20:49 INFO  LogController:35 - Ingesting Log
+2019-05-25 18:20:49 INFO  LogService:33 - Ingest successfully done
+2019-05-25 18:21:05 INFO  LogController:35 - Ingesting Log
+2019-05-25 18:21:05 INFO  LogService:33 - Ingest successfully done
+2019-05-25 18:21:23 INFO  LogController:41 - Getting metrics
+2019-05-25 18:21:23 INFO  LogService:54 - Metrics returned successfully
+2019-05-25 18:21:41 INFO  LogController:35 - Ingesting Log
+2019-05-25 18:21:41 INFO  LogService:33 - Ingest successfully done
+2019-05-25 18:21:42 INFO  LogController:35 - Ingesting Log
+2019-05-25 18:21:42 INFO  LogService:33 - Ingest successfully done
+2019-05-25 18:21:43 INFO  LogController:35 - Ingesting Log
+2019-05-25 18:21:43 INFO  LogService:33 - Ingest successfully done
+2019-05-25 18:21:44 INFO  LogController:35 - Ingesting Log
+2019-05-25 18:21:44 INFO  LogService:33 - Ingest successfully done
+2019-05-25 18:21:47 INFO  LogController:41 - Getting metrics
+2019-05-25 18:21:47 INFO  LogService:54 - Metrics returned successfully

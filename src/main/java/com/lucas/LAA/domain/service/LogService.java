@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,14 +15,23 @@ import com.lucas.LAA.domain.repository.LogRepositoryImpl;
 
 @Service
 public class LogService {
-
+	
+	private static final Logger logger = Logger.getLogger(LogService.class);
+	
 	@Autowired
 	private LogRepositoryImpl logRepository;
 
-	public void insertLog(Log log) {
-		this.logRepository.save(log, LogRepositoryImpl.ACCESSED_URL_KEY);
-		this.logRepository.save(log, LogRepositoryImpl.ACCESSED_URL_REGION_KEY + log.getRegionCode());
-		this.logRepository.save(log, LogRepositoryImpl.ACCESSED_URL_TIMESTAMP_KEY + log.getTimestamp());
+	public Log insertLog(Log log) {
+		try {
+			this.logRepository.save(log, LogRepositoryImpl.ACCESSED_URL_KEY);
+			this.logRepository.save(log, LogRepositoryImpl.ACCESSED_URL_REGION_KEY + RegionCode.valueOf(log.getRegionCode()));
+			this.logRepository.save(log, LogRepositoryImpl.ACCESSED_URL_TIMESTAMP_KEY + log.getTimestamp());
+		} catch (Exception e) {
+			logger.error("Error while ingesting log: " + log);
+		}
+		
+		logger.info("Ingest successfully done");
+		return log;
 	}
 
 	public Map<Object, Object> findAll(String key) {
@@ -40,7 +50,9 @@ public class LogService {
 
 		//// Sets the metrics for TOP 3 Accessed per region
 		logMetric.setLessAccessedInWorld(this.logRepository.findLessAccessedURL(1, LogRepositoryImpl.ACCESSED_URL_KEY));
-
+		
+		logger.info("Metrics returned successfully");
+		
 		return logMetric;
 	}
 
