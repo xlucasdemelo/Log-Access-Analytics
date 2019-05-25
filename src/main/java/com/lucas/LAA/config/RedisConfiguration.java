@@ -11,6 +11,8 @@ import org.springframework.data.redis.listener.RedisMessageListenerContainer;
 import org.springframework.data.redis.listener.adapter.MessageListenerAdapter;
 import org.springframework.data.redis.repository.configuration.EnableRedisRepositories;
 import org.springframework.data.redis.serializer.GenericToStringSerializer;
+import org.springframework.data.redis.serializer.RedisSerializer;
+import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 import com.lucas.LAA.queue.MessagePublisher;
 import com.lucas.LAA.queue.MessagePublisherImplementation;
@@ -32,6 +34,13 @@ public class RedisConfiguration {
 	        final RedisTemplate<String, Object> template = new RedisTemplate<String, Object>();
 	        template.setConnectionFactory(jedisConnectionFactory());
 	        template.setValueSerializer(new GenericToStringSerializer<Object>(Object.class));
+	        
+	        RedisSerializer<String> stringSerializer = new StringRedisSerializer();
+	        template.setKeySerializer(stringSerializer);
+	        template.setValueSerializer(stringSerializer);
+	        template.setHashKeySerializer(stringSerializer);
+	        template.setHashValueSerializer(stringSerializer);
+	        
 	        return template;
 	    }
 

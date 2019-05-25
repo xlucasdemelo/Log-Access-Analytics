@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.lucas.LAA.domain.entity.Log;
+import com.lucas.LAA.domain.entity.LogMetric;
 import com.lucas.LAA.domain.service.LogService;
 
 @RestController
@@ -27,12 +28,12 @@ public class LogController {
 	}
 	
 	@PostMapping(value = "/laar/ingest", consumes="application/json")
-	public Log ingestLog(@RequestBody Log log) {
-		return this.logService.insertLog(log);
+	public void ingestLog(@RequestBody Log log) {
+		this.logService.insertLog(log);
 	}
 	
-	@GetMapping(value = "/laa/metrics", produces="application/json")
-	public Log getMetrics(Log log) {
-		return this.logService.insertLog(log);
+	@GetMapping(value = "/laa/metrics", produces = "application/json")
+	public LogMetric getMetrics(){
+		return this.logService.getMetrics();
 	}
 }

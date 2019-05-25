@@ -3,6 +3,8 @@ package com.lucas.LAA.domain.entity;
 import java.io.Serializable;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 import org.springframework.data.redis.core.RedisHash;
@@ -18,15 +20,16 @@ import lombok.ToString;
 @AllArgsConstructor
 @RedisHash("Log")
 @ToString
-public class Log implements Serializable{
+public class Log  implements Serializable{
 	
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1019205957678683154L;
-
+	
 	@Id
-	protected Long id;
+	@GeneratedValue(strategy=GenerationType.AUTO) 
+	private Long id;
 	
 	private String url;
 	
